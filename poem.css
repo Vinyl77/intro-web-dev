@@ -1,16 +1,33 @@
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-
-
-
+body
+{
+    margin: 0px;
+    background-color: #0099cc;
 }
-
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    
-}
-
-#main{
+#main
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #eee;
+    height: 100%;
     text-align: center;
+}
+h1
+{
+    font-family: arial, sans-serif;
+    font-variant: small-caps;
+    margin-bottom: 0px;
+}
+h2
+{
+    
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+p
+{
+    font-size: 1.5em;
+    font-style: italic;
 }
